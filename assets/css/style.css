@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.menu {
+  
+    display: flex;
+    flex: 0 0 15rem; /* ajusta el valor de x según tus necesidades */
+    flex-direction: column;
+    border-right: 2px solid #e8ebe4;
+    padding: 2rem;
+}
+.contact-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e8ebe4;
+    padding: 0.6rem;
+  }
+  
+
+.contact-active__img {
+    border-radius: 50%;
+    border: 1px solid #e8ebe4;
+    width: 2rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.contact-active__name {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.contact-active__message {
+    font-family: 'Roboto';
+    font-size: 10px;
+    color: #828485;
+}
+
+.contact-active__icon {
+    display: flex;
+    width: 4rem;
+    color: #828485;
+    margin-left: auto;
+    margin-right: 1rem;
+    justify-content: space-around;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #e8ebe4;
+    padding: 2.2rem;
+    height: 5rem; /* alto del bloque */
+  }
+  
+
+.button__text {
+    background-color: #a491d2;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    width: 10rem;
+    height: 2.6rem;
+}
+
+.button__text:hover {
+    background-color: #cdc3e6;
+}
+
+.button__text:focus {
+    background-color: #bec1bb;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e8ebe4;
+    padding: 0.6rem 0.6rem;
+}
+
+.userimg {
+    border-radius: 50%;
+    border: 1px solid #e8ebe4;
+    width: 3rem;
+    margin: 0 1rem 0 1rem;
+}
+.userimg:hover {
+    transform: scale(1.3);
+}
+.contact__name {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.contact__message {
+    font-family: 'Roboto';
+}
+
+.networking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:50 rem ;
+    background-color: #e8ebe4;
+}
+
+.networking__title {
+    font-family: 'Roboto';
+    font-size: 45px;
+}
+
+.networking__image {
+    width: 40rem;
+}
+
+.networking_c { 
+   
+        display: flex;
+        flex: 0 0 20rem;
+        flex-direction: column;
+        border-right: 2px solid #e8ebe4;
+        padding: 2rem;
+        height: 100vh;
+    }
+    
+   
+
